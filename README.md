@@ -54,37 +54,37 @@
 
 ## Add-ons
 
->> composer require spatie/yaml-front-matter // install YAML
+`composer require spatie/yaml-front-matter` // install YAML
 
 ## Command Line - Tinker (Create 3 Users)
 
->> php artisan tinker
+`php artisan tinker`
 
->> $user = new App\Models\User;
->> $user->name = 'Jim Sample';
->> $user->email = 'jsample@gmail.com';
->> $user->password = bcrypt('!password');
->> $user->save();
+`$user = new App\Models\User;`
+`$user->name = 'Jim Sample';`
+`$user->email = 'jsample@gmail.com';`
+`$user->password = bcrypt('!password');`
+`$user->save();`
 
->> $user = new App\Models\User;
->> $user->name = 'Stacey';
->> $user->email = 'Stacey@gmail.com';
->> $user->password = bcrypt('!password');
->> $user->save();
+`$user = new App\Models\User;`
+`$user->name = 'Stacey';`
+`$user->email = 'Stacey@gmail.com';`
+`$user->password = bcrypt('!password');`
+`$user->save();`
 
->> $user = new App\Models\User;
->> $user->name = 'Nathan Stanford';
->> $user->email = 'Nathan.Stanford@gmail.com';
->> $user->password = bcrypt('!password');
->> $user->save();
+`$user = new App\Models\User;`
+`$user->name = 'Nathan Stanford';`
+`$user->email = 'Nathan.Stanford@gmail.com';`
+`$user->password = bcrypt('!password');`
+`$user->save();`
 
->> User::all();  // List All Users
+`User::all();  // List All Users`
 
->> php artisan help make:migration // To get help information
+`php artisan help make:migration // To get help information`
 
 ## Create a migration table
 
->> php artisan make:migration create_posts_table; 
+`php artisan make:migration create_posts_table;`
 
 ## Add a new post to Post table
 
