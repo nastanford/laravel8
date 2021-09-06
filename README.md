@@ -58,29 +58,31 @@
 
 ## Command Line - Tinker (Create 3 Users)
 
-`php artisan tinker`
+```
+php artisan tinker
 
-`$user = new App\Models\User;`
-`$user->name = 'Jim Sample';`
-`$user->email = 'jsample@gmail.com';`
-`$user->password = bcrypt('!password');`
-`$user->save();`
+$user = new App\Models\User;
+$user->name = 'Jim Sample';
+$user->email = 'jsample@gmail.com';
+$user->password = bcrypt('!password');
+$user->save();
 
-`$user = new App\Models\User;`
-`$user->name = 'Stacey';`
-`$user->email = 'Stacey@gmail.com';`
-`$user->password = bcrypt('!password');`
-`$user->save();`
+$user = new App\Models\User;
+$user->name = 'Stacey';
+$user->email = 'Stacey@gmail.com';
+$user->password = bcrypt('!password');
+$user->save();`
 
-`$user = new App\Models\User;`
-`$user->name = 'Nathan Stanford';`
-`$user->email = 'Nathan.Stanford@gmail.com';`
-`$user->password = bcrypt('!password');`
-`$user->save();`
+$user = new App\Models\User;
+$user->name = 'Nathan Stanford';
+$user->email = 'Nathan.Stanford@gmail.com';
+$user->password = bcrypt('!password');
+$user->save();
 
-`User::all();  // List All Users`
+User::all();  // List All Users
 
-`php artisan help make:migration // To get help information`
+php artisan help make:migration // To get help information
+```
 
 ## Create a migration table
 
@@ -88,7 +90,7 @@
 
 ## Add a new post to Post table
 
-```
+```php
 $post = new App\Models\Post;
 $post->title = 'Eloquent is Amazing';
 $post->excerpt = 'Lorem ipsum dolar sit amet.';
