@@ -27,7 +27,7 @@
 
 ### Add **Bootstrap CSS** to the build
 
-1. `composer require laravel/ui`
+1. `composer require laravel/ui` (laravel/ui is deprecated and they are using breeze or jetstream)
 2. `php artisan ui bootstrap` (add `--auth` to auto-create authentication-related pages like login and register)
 3. `npm install bootstrap@latest @popperjs/core --save-dev` (installs the latest version of Bootstrap and PopperJS)
 4. `npm run dev`
