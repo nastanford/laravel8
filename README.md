@@ -110,3 +110,11 @@ $post->save();
 - To exclude id field: `protected $guarded = ['id'];`
 - To specify the fillable fields: `protected $fillable = ['title','excerpt','body'];`
 
+
+
+## In routes/web.php page
+- `Route::get('/posts', [PostController::class, 'index']);`
+
+## And in View page
+- `<a  href="{{url('/posts')}}">Posts</a>`
+
