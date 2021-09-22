@@ -35,6 +35,9 @@
 6. `npm run dev` (sometimes you have to run the this twice for **scss** to run again)
 7. delete the Web Config file in the public folder if it is IIS.
 
+## Laravel Tools
+1. Laravel Debug Bar - `composer require barryvdh/laravel-debugbar`
+
 ## Laravel Training
 
 - [Laravel 8 from Scratch - Laracasts](https://laracasts.com/series/laravel-8-from-scratch/)
