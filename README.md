@@ -19,7 +19,8 @@
 
 1. `composer global require laravel/installer` (Install the Laravel CLI)
 2. `laravel new example-app-name` (Create new project called **example-app-main**)
-3. `cd example-app-name` (Navigate to **example-app-main** folder)
+   `composer create-project laravel/laravel example3 8.* --prefer-dist` - Version 8
+4. `cd example-app-name` (Navigate to **example-app-main** folder)
 
 ### Add **make:view** to Artisan Commands
 
