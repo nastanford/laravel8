@@ -1,5 +1,8 @@
 # Laravel 8 
 
+## PHP help stop injection
+- Strip_Tags($phpVariable);
+
 ## Tools Needed
 
 - Visual Studio Code (VSCode) or PHPStorm as IDE
