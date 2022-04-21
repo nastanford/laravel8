@@ -30,16 +30,17 @@
 1. `composer require theanik/laravel-more-command --dev`
 
 ### Add **Bootstrap CSS** to the build
-
 1. `composer require laravel/ui` (laravel/ui is deprecated and they are using breeze or jetstream)
 2. `php artisan ui bootstrap` (add `--auth` to auto-create authentication-related pages like login and register)
 3. `npm install bootstrap@latest @popperjs/core --save-dev` (installs the latest version of Bootstrap and PopperJS)
-4. `npm install` (had an issue where mix was not installed until you do this.)
-5. `npm run dev`
-6. `npm run dev` (sometimes you have to run the this twice for **scss** to run again)
-7. delete the Web Config file in the public folder if it is IIS.
 
-## Laravel Tools
+### Steps to Continue installing
+1. `npm install` (had an issue where mix was not installed until you do this.)
+2. `npm run dev`
+3. `npm run dev` (sometimes you have to run the this twice for **scss** to run again)
+4. delete the Web Config file in the public folder if it is IIS. ??
+
+## Laravel Tools (not sure if this is needed or not.  It was kinda cool looking providing good debug info.)
 1. Laravel Debug Bar - `composer require barryvdh/laravel-debugbar`
 
 ## Laravel Training
