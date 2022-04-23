@@ -124,8 +124,7 @@ $post->save();
 - `<a  href="{{url('/posts')}}">Posts</a>`
 
 # Short List to create a brand new Laravel 8 app  
-### Always one less then the latest version since 
-### the modules are usually not ready for latest version. 
+Always one less then the latest version since the modules are usually not ready for latest version.  Suggestion make sure NPM, Node, Composer, Chocolatey (windows) are up to date.
  
 # laravel New App Steps (example app name "appname")
 1. Create laravel version 8 App 
