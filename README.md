@@ -128,17 +128,18 @@ $post->save();
 ### the modules are usually not ready for latest version. 
  
 # laravel New App Steps (example app name "appname")
-1.Create laravel version 8 App 
+1. Create laravel version 8 App 
   c:\sites> composer create-project laravel/laravel appname 8.* --prefer-dist
+  
 2. Move into the new app root directory
   c:\sites> cd appname
+  
 3. optional add View to the "make:view" option
   c:\sites\appname> composer require theanik/laravel-more-command --dev
+  
 4. update project using npm (Can do npm i for npm install)
   c:\sites\appname> npm install 
+  
 5. Run npm Dev to setup development items (I run this twice)
   c:\sites\appname> npm run dev
-
-
-
 
