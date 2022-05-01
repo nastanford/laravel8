@@ -41,7 +41,8 @@
 4. delete the Web Config file in the public folder if it is IIS. ??
 
 ## Laravel Tools (not sure if this is needed or not.  It was kinda cool looking providing good debug info.)
-1. Laravel Debug Bar - `composer require barryvdh/laravel-debugbar`
+1. Laravel Debug Bar 
+ `composer require barryvdh/laravel-debugbar --dev`
 
 ## Laravel Training
 
