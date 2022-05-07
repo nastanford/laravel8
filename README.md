@@ -3,6 +3,19 @@
 ## PHP help stop injection
 - Strip_Tags($phpVariable);
 
+## Composer install
+### Check version 
+- `composer --version`
+
+## npm/node.js
+### Check version
+- `npm --version`
+- `node --version`
+
+## PHP
+### Check Version
+- `php -v`
+
 ## Tools Needed
 
 - Visual Studio Code (VSCode) or PHPStorm as IDE
