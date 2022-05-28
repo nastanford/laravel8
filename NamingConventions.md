@@ -1,4 +1,4 @@
-# Naming conventions for laravel
+# Naming Conventions for Laravel
 
 * Variables	=>	camelCase	=>	$articlesWithAuthor
 * Collection Variable	=>	descriptive, plural	=>	$activeUsers = User::active()->get()
